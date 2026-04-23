@@ -422,3 +422,28 @@ footer {
     padding: 24px 16px 42px;
   }
 }
+
+.compact-hero {
+  padding-bottom: 1.2rem;
+}
+
+.research-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.2rem;
+  margin-top: 1rem;
+}
+
+.full-width {
+  grid-column: 1 / -1;
+}
+
+@media (max-width: 768px) {
+  .research-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .full-width {
+    grid-column: auto;
+  }
+}
