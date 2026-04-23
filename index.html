@@ -1,89 +1,70 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>研究者ポートフォリオ | Home</title>
-  <meta name="description" content="研究者としてのプロフィール、研究ページ、ITページへの導線をまとめたトップページです。" />
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <header>
-    <div class="nav">
-      <a class="brand" href="index.html">Research Portfolio</a>
-      <nav class="nav-links">
-        <a href="index.html">Home</a>
-        <a href="research.html">倫理学研究関連</a>
-        <a href="it.html">IT・AI技術について / GitHub</a>
-      </nav>
+<main>
+  <section class="hero hero-home">
+    <div class="photo-card">
+      <img src="profile.jpg" alt="プロフィール画像" class="profile-img">
     </div>
-  </header>
 
-  <main>
-    <section class="hero hero-home">
-      <div class="photo-card">
-        <img src="profile.jpg" alt="プロフィール画像" class="profile-img">
-      </div>      
+    <div>
+      <span class="eyebrow">Researcher Portfolio</span>
+      <h1>藤野竜多</h1>
+      <p class="lead">
+        倫理学、特にカント倫理学における責任・自由・判断の問題を中心に研究しています。
+        また、AI倫理やAIそのものにも関心を持ち、PyTorchを用いた簡単なLLM実装などにも取り組んでいます。
+      </p>
 
-      <div>
-        <span class="eyebrow">Academic Portfolio</span>
-        <h1>藤野竜多 / Fujino Ryuta</h1>
-        <p class="lead">
-          倫理学・哲学を中心とする研究活動を公開しつつ、補助的に IT・データ分析・実装経験も掲載する個人サイトです。
-        </p>
-
-        <div class="meta">
-          <div class="meta-item"><strong>所属:</strong> 東京大学大学院 人文社会系研究科　基礎文化研究専攻　倫理学専門分野</div>
-          <div class="meta-item"><strong>専門:</strong> 倫理学(特にカント倫理学)</div>
-          <div class="meta-item"><strong>連絡先:</strong> 6867203047@g.ecc.u-tokyo.ac.jp</div>
-        </div>
-
-        <div class="cta-row">
-          <a class="button" href="research.html">研究ページへ</a>
-          <a class="button secondary" href="it.html">IT関連 / GitHubコード へ</a>
-        </div>
+      <div class="meta">
+        <div class="meta-item"><strong>所属:</strong> 東京大学大学院</div>
+        <div class="meta-item"><strong>専門:</strong> 倫理学・カント倫理学・AI倫理</div>
+        <div class="meta-item"><strong>連絡先:</strong> 6867203047@g.ecc.u-tokyo.ac.jp</div>
       </div>
-    </section>
 
-    <section class="grid home-grid">
-      <article class="card two-col feature-card feature-main">
-        <span class="section-kicker">Main Page</span>
-        <h2 class="section-title">倫理学研究関連</h2>
-        <p>
-          このサイトの中心は研究の公開です。文献サーベイ等をまとめます。
-        </p>
-        <div class="cta-row compact">
-          <a class="button" href="research.html">倫理学研究関連く</a>
-        </div>
-      </article>
+      <div class="cta-row">
+        <a class="button" href="research.html">研究ページへ</a>
+        <a class="button secondary" href="it.html">IT関連 / GitHubコードへ</a>
+      </div>
+    </div>
+  </section>
 
-      <article class="card two-col feature-card feature-sub">
-        <span class="section-kicker">Sub Page</span>
-        <h2 class="section-title">IT ・AI技術について / Github</h2>
-        <p>
-          データ分析、Python、GitHub、軽い実装経験など
-        </p>
-        <div class="cta-row compact">
-          <a class="button secondary" href="it.html">IT ・AI技術について / Githubく</a>
-        </div>
-      </article>
+  <section class="intro-wide card">
+    <span class="section-kicker">Introduction</span>
+    <h2 class="section-title">自己紹介</h2>
+    <p>
+      特にカント倫理学における責任・自由・判断の問題を中心に研究しています。とりわけ、有限な認識能力や社会的条件のもとで、どこまで個人に責任を帰属できるのかという問題に関心を持っています。
+    </p>
+    <p>
+      AI倫理に関する興味もあり、現代の技術環境における規範理論のあり方についても関心を広げています。同時にAIそのものにも関心を持ち、PyTorchを用いた簡単なLLMの実装などを通じて、理論と技術の両面から理解を深めています。
+    </p>
+  </section>
 
-      <article class="card three-col">
-        <h3>自己紹介</h3>
-          <p>
-            特にカント倫理学における責任・自由・判断の問題を中心に研究しています。とりわけ、有限な認識能力や社会的条件のもとで、どこまで個人に責任を帰属できるのかという問題に関心を持っています。
-          </p>
-          <p>
-            AI倫理に関する興味もあり、現代の技術環境における規範理論のあり方についても関心を広げています。同時にAIそのものにも関心を持ち、PyTorchを用いた簡単なLLMの実装などを通じて、理論と技術の両面から理解を深めています。
-          </p>
-      </article>
-        </ul>
-      </article>
-    </section>
-  </main>
+  <section class="page-guide-heading">
+    <span class="section-kicker">Page Guide</span>
+    <h2 class="section-title">このサイトの見取り図</h2>
+    <p class="note">
+      研究ページを主軸としつつ、IT・GitHub関連の内容は補助的なサブページとして整理しています。
+    </p>
+  </section>
 
-  <footer>
-    © 2026 Name Here. Built as an academic portfolio with a main research page and a supporting IT page.
-  </footer>
-</body>
-</html>
+  <section class="grid">
+    <article class="card two-col feature-card feature-main">
+      <span class="section-kicker">Main Page</span>
+      <h3>倫理学研究関連</h3>
+      <p>
+        このサイトの中心は研究の公開です。文献サーベイ、研究関心、問題設定などをまとめます。
+      </p>
+      <div class="cta-row compact">
+        <a class="button" href="research.html">倫理学研究関連へ</a>
+      </div>
+    </article>
+
+    <article class="card two-col feature-card feature-sub subtle-card">
+      <span class="section-kicker">Sub Page</span>
+      <h3>IT・AI技術について / GitHub</h3>
+      <p>
+        データ分析、Python、GitHub、軽い実装経験など、研究を支える技術的関心と実践を整理しています。
+      </p>
+      <div class="cta-row compact">
+        <a class="button secondary" href="it.html">IT・AI技術について / GitHubへ</a>
+      </div>
+    </article>
+  </section>
+</main>
