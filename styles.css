@@ -83,8 +83,6 @@ main {
   border-radius: 28px;
   background: linear-gradient(135deg, #bfdbfe 0%, #c4b5fd 55%, #fbcfe8 100%);
   box-shadow: var(--shadow);
-  display: grid;
-  place-items: center;
   border: 1px solid rgba(255,255,255,0.6);
   overflow: hidden;
 }
@@ -321,5 +319,5 @@ footer {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 28px;
+  display: block;
 }
