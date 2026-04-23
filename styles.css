@@ -445,3 +445,13 @@ footer {
     grid-column: auto;
   }
 }
+
+.publication-list {
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+}
+
+.publication-list li {
+  margin-bottom: 0.6rem;
+  line-height: 1.5;
+}
