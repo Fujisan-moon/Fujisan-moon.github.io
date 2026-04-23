@@ -321,3 +321,21 @@ footer {
   object-fit: cover;
   display: block;
 }
+
+.intro-wide {
+  margin-bottom: 28px;
+}
+
+.intro-wide p {
+  max-width: 920px;
+  margin-bottom: 12px;
+}
+
+.page-guide-heading {
+  margin: 10px 0 18px;
+  padding: 0 4px;
+}
+
+.page-guide-heading .section-title {
+  margin-bottom: 8px;
+}
