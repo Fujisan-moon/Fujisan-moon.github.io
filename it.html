@@ -25,7 +25,9 @@
       <span class="eyebrow subdued">Supporting Section</span>
       <h1>IT分野の経験・GitHub</h1>
       <p class="lead">
-        このページは研究ページを補助する位置づけです。研究とは別に、データ分析、プログラミング、GitHub での実装経験などを簡潔に示し、技術的な素養や実務的な対応力があることを伝えます。
+        研究活動と並行して、データ分析・機械学習・Web開発の基礎を学習し、
+        実装・検証・改善のサイクルを回す経験を積んでいます。
+        本ページでは「実際に手を動かして理解している内容」を簡潔に示します。
       </p>
       <div class="tag-row">
         <span class="tag muted-tag">Python</span>
@@ -36,16 +38,15 @@
     </section>
 
     <section class="grid sub-grid">
+
       <article class="card two-col sub-card">
         <h2 class="section-title">IT経験の概要</h2>
-        <p>
-          Python、pandas、scikit-learn、可視化、軽い Web 開発、環境構築、共同開発での役割などを簡潔にまとめます。ここでは詳細なポートフォリオを作り込みすぎず、「何ができるか」を分かりやすく示す程度で十分です。
-        </p>
         <ul class="list">
-          <li>データ整形・EDA・可視化</li>
-          <li>機械学習の基本実装と評価</li>
-          <li>Git / GitHub を用いたバージョン管理</li>
-          <li>資料作成、検証、バグ確認、環境対応</li>
+          <li>EDA（探索的データ分析）・前処理・可視化</li>
+          <li>scikit-learn を用いた機械学習モデルの構築・評価</li>
+          <li>Git / GitHub を用いたコード管理・公開</li>
+          <li>環境構築（WSL2 / Docker）およびトラブルシュート</li>
+          <li>バグ検証・エッジケース抽出・仕様理解</li>
         </ul>
       </article>
 
@@ -54,49 +55,85 @@
         <div class="tag-row">
           <span class="tag muted-tag">Python</span>
           <span class="tag muted-tag">pandas</span>
+          <span class="tag muted-tag">NumPy</span>
           <span class="tag muted-tag">scikit-learn</span>
           <span class="tag muted-tag">HTML/CSS</span>
           <span class="tag muted-tag">Git</span>
           <span class="tag muted-tag">Jupyter</span>
+          <span class="tag muted-tag">WSL2</span>
         </div>
         <p class="note" style="margin-top: 16px;">
-          必要に応じて Docker、SQL、Linux、Flask、FastAPI などを追記できます。
+          その他：FastAPI / Docker / SQL / AWS（基礎レベルでの調査・使用経験）
         </p>
       </article>
 
       <article class="card sub-card">
         <h2 class="section-title">GitHubプロジェクト</h2>
+
         <div class="project">
-          <strong>Project A</strong><br />
-          プロジェクトの短い説明をここに書く。<br />
-          <a href="https://github.com/yourname/project-a" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
+          <strong>複数AI API統合プロジェクト</strong><br />
+          複数のAI APIを統合し、用途に応じた出力を行うシステムの試作。<br />
+          API設計やレスポンス処理の理解を目的に実装。<br />
+          <a href="https://github.com/Fujisan-moon/multipleAIAPIproject" target="_blank" rel="noopener noreferrer">
+            GitHub Repository
+          </a>
         </div>
+
         <div class="project">
-          <strong>Project B</strong><br />
-          どのような問題を解いたか、何を実装したかを書く。<br />
-          <a href="https://github.com/yourname/project-b" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
+          <strong>IBM Data Analysis（データ分析プロジェクト）</strong><br />
+          データ前処理・EDA・モデル構築まで一連の分析プロセスを実践。<br />
+          pandas / scikit-learn を用いた分析手法の理解に重点。<br />
+          <a href="https://github.com/Fujisan-moon/IBM-data-analysis" target="_blank" rel="noopener noreferrer">
+            GitHub Repository
+          </a>
         </div>
+
+        <div class="project">
+          <strong>DataFrame要約ツール</strong><br />
+          pandas DataFrame の統計情報を簡潔に出力するツールを作成。<br />
+          データ構造理解と再利用可能なコード設計を意識。<br />
+          <a href="https://github.com/Fujisan-moon/df-sumary-tool" target="_blank" rel="noopener noreferrer">
+            GitHub Repository
+          </a>
+        </div>
+
+      </article>
+
+      <article class="card two-col sub-card subtle-card">
+        <h2 class="section-title">理解している技術内容</h2>
+        <ul class="list">
+          <li>データ前処理（欠損値処理・特徴量設計）</li>
+          <li>モデル評価（train/val/test分割・過学習の検知）</li>
+          <li>基本的な機械学習アルゴリズム（回帰・決定木など）</li>
+          <li>学習ループや評価指標の読み取り</li>
+          <li>環境エラーの切り分けと再現</li>
+        </ul>
       </article>
 
       <article class="card two-col sub-card subtle-card">
         <h2 class="section-title">研究との接続</h2>
         <p>
-          文献整理、データベース化、研究支援ツールの作成、AI・データ倫理領域への接続など、技術面が研究活動をどう支えているかを示すと、サブページとして十分に機能します。
+          文献整理のデータベース化や、分析的手法の導入により、
+          哲学研究における情報整理・構造化を補助しています。
+          また、AI倫理・責任論との接続可能性も視野に入れています。
         </p>
       </article>
 
       <article class="card two-col sub-card subtle-card">
         <h2 class="section-title">外部リンク</h2>
         <div class="cta-row compact">
-          <a class="button secondary" href="https://github.com/yourname" target="_blank" rel="noopener noreferrer">GitHub Profile</a>
+          <a class="button secondary" href="https://github.com/Fujisan-moon" target="_blank" rel="noopener noreferrer">
+            GitHub Profile
+          </a>
           <a class="button secondary" href="index.html">トップに戻る</a>
         </div>
       </article>
+
     </section>
   </main>
 
   <footer>
-    © 2026 Name Here. Supporting IT / GitHub page.
+    © 2026 Ryuta Fujino. Supporting IT / GitHub page.
   </footer>
 </body>
 </html>
