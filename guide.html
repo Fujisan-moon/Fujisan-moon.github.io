@@ -3,77 +3,68 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>文献ガイド | Research Portfolio</title>
-  <meta name="description" content="研究分野ごとの文献ガイドをまとめたページです。" />
+  <title>カント倫理学文献ガイド | 研究者ホームページ</title>
+  <meta name="description" content="カント倫理学の文献案内・読書ガイドをまとめたページです。" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header>
-    <div class="nav">
-      <a class="brand" href="index.html">藤野竜多のホームページ</a>
-      <nav class="nav-links">
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="site-brand" href="index.html">
+        <span class="site-brand-main">研究者ホームページ</span>
+        <span class="site-brand-sub">Ethics / Kant / AI</span>
+      </a>
+
+      <nav class="site-nav">
         <a href="index.html">Home</a>
         <a href="research.html">研究について</a>
-        <a href="guide.html">カント倫理学文献ガイド</a>
+        <a href="guide.html" class="active">カント倫理学文献ガイド</a>
         <a href="it.html">IT・AIについて / GitHub</a>
       </nav>
     </div>
   </header>
 
-  <main>
-    <section class="page-hero page-hero-main compact-hero">
-      <span class="eyebrow">Guide</span>
-      <h1>文献ガイド</h1>
-      <p class="lead">
-        研究テーマごとに、基本文献・重要論文・入門用資料を整理していくページです。
+  <main class="page-shell page-narrow">
+    <section class="page-hero">
+      <p class="hero-kicker">Guide</p>
+      <h1 class="page-title">カント倫理学文献ガイド</h1>
+      <div class="crest-divider narrow">
+        <span></span>
+        <span class="crest-mark">✦</span>
+        <span></span>
+      </div>
+      <p class="page-intro">
+        カント倫理学を学ぶための主要文献、研究書、論文への導線を整理していくページです。
       </p>
     </section>
 
-    <section class="grid">
+    <section class="content-card">
+      <h2 class="section-title">このページについて</h2>
+      <p>
+        ここでは、カント倫理学に関する主要著作、入門書、研究書、重要論文などを、
+        テーマ別・目的別に整理していく予定です。
+      </p>
+      <p>
+        現時点ではページの骨組みを作成しており、今後、義務論・人格・自由・格率・判断力などの
+        テーマごとに拡張していきます。
+      </p>
+    </section>
 
-      <article class="card">
-        <h2 class="section-title">作成予定の項目</h2>
-        <ul class="list">
-          <li>カント倫理学</li>
-          <li>責任論・帰責論</li>
-          <li>徳倫理学と性格論</li>
-          <li>ハビトゥスと道徳形成</li>
-          <li>AI と規範倫理</li>
-        </ul>
-      </article>
-
-      <article class="card">
-        <h2 class="section-title">義務の衝突問題（Moral Dilemmas）</h2>
-
-        <p>
-          カント倫理学においては一般に義務の衝突は否定されるとされるが、それが定義に関する問題であるのか、それとも体系性それ自体の問題であるのかは意見が分かれる。
-        </p>
-
-        <div class="project">
-          <strong>Jens Timmermann, “Kantian Dilemmas? Moral Conflict in Kant’s Ethical Theory” (2013)</strong><br />
-          カント倫理学における義務衝突問題の代表的整理。
-          義務の衝突をどのように理解しうるかについて整理されている。
-          まず参照すべき基本文献。
-        </div>
-
-        <div class="project">
-          <strong>Carol Hay, “Kant on Moral Dilemmas” (Kantian Review, 2022)</strong><br />
-          義務の衝突問題と OIC を中心に、カント倫理学の枠内でのジレンマの扱いを再検討。
-          ウィリアムズ的なジレンマ論への応答も視野に入る。
-        </div>
-
-        <div class="project">
-          <strong>W. A. Hart, “Nussbaum, Kant and Conflicts between Duties” (1998)</strong><br />
-          ヌスバウムの議論を手がかりに、カント倫理学における義務衝突の問題を検討。
-        </div>
-
-      </article>
-
+    <section class="content-card">
+      <h2 class="section-title">今後追加したい項目</h2>
+      <ul class="plain-list">
+        <li>カント主要著作ガイド</li>
+        <li>義務・責任・人格に関する研究書</li>
+        <li>格率と判断力に関する論文</li>
+        <li>OICと義務の衝突問題</li>
+        <li>国内研究と英語圏研究の整理</li>
+      </ul>
     </section>
   </main>
 
-  <footer>
-    © 2026 Name Here. Literature guide page.
+  <footer class="site-footer">
+    <div class="footer-crest">✧</div>
+    <p>© 2026 Research Homepage</p>
   </footer>
 </body>
 </html>
