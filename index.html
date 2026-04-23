@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>研究者ポートフォリオ | Home</title>
-  <meta name="description" content="研究者としてのプロフィール、最近の活動、研究ページ、IT実績ページへの導線をまとめたトップページです。" />
+  <meta name="description" content="研究者としてのプロフィール、研究ページ、ITページへの導線をまとめたトップページです。" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -23,104 +23,93 @@
     <section class="hero hero-home">
       <div class="photo-card" aria-label="プロフィール画像のプレースホルダ">
         <div class="photo-placeholder">
-          Profile Image<br />
-          ここに写真を配置
+          イメージ写真をここに配置<br />
+          画像差し替え可
         </div>
       </div>
 
       <div>
         <span class="eyebrow">Academic Portfolio</span>
-        <h1>名前 / Name</h1>
+        <h1>氏名 / Name Here</h1>
         <p class="lead">
-          倫理学・哲学を中心とした研究活動と、IT・データ分析・実装経験を整理して紹介するための個人サイトです。
-          研究上の関心、最近の活動、技術的な取り組みを、それぞれ独立したページで見やすくまとめています。
+          倫理学・哲学を中心とする研究活動を軸にしつつ、補助的に IT・データ分析・実装経験も掲載する個人サイトです。まずは研究内容が最初に伝わる構成を採り、そのうえで技術面の実績へ自然に移動できるよう設計しています。
         </p>
 
         <div class="meta">
-          <div class="meta-item"><strong>所属</strong><br />〇〇大学大学院・〇〇研究室</div>
-          <div class="meta-item"><strong>専門</strong><br />倫理学 / 哲学 / AIと社会</div>
-          <div class="meta-item"><strong>連絡先</strong><br />your-email@example.com</div>
+          <div class="meta-item"><strong>所属:</strong> 〇〇大学大学院 / 〇〇研究室</div>
+          <div class="meta-item"><strong>専門:</strong> 倫理学・哲学・AIと社会</div>
+          <div class="meta-item"><strong>連絡先:</strong> your-email@example.com</div>
         </div>
 
         <div class="cta-row">
           <a class="button" href="research.html">研究ページへ</a>
-          <a class="button secondary" href="it.html">IT / GitHubページへ</a>
+          <a class="button secondary" href="it.html">IT / GitHub へ</a>
         </div>
       </div>
     </section>
 
     <section class="grid home-grid">
-      <article class="card two-col feature-card">
-        <span class="eyebrow">Research</span>
-        <h2 class="section-title">研究について</h2>
+      <article class="card two-col feature-card feature-main">
+        <span class="section-kicker">Main Page</span>
+        <h2 class="section-title">研究を中心に見る</h2>
         <p>
-          研究ページでは、現在取り組んでいるテーマ、関心領域、文献サーベイ、今後の課題などを整理しています。
-          個別の論文一覧だけでなく、「何を問題として考えているのか」が分かる構成を意識しています。
+          このサイトの中心は研究ページです。研究テーマ、問題設定、研究成果、文献サーベイ、今後の課題などをまとめ、外部の研究者や審査者がまず最初に確認しやすい導線を意識しています。
         </p>
-        <a class="text-link" href="research.html">研究のまとめを見る →</a>
-      </article>
-
-      <article class="card two-col feature-card">
-        <span class="eyebrow">IT / GitHub</span>
-        <h2 class="section-title">技術的な経験</h2>
-        <p>
-          ITページでは、Python、データ分析、機械学習、環境構築、GitHub上の制作物などを掲載します。
-          研究活動を支える実装力や、技術分野への越境的な関心が分かる内容を置く想定です。
-        </p>
-        <a class="text-link" href="it.html">IT分野の経験を見る →</a>
-      </article>
-
-      <article class="card two-col">
-        <h2 class="section-title">自己紹介</h2>
-        <p>
-          ここには、研究者としての問題意識や関心を、短めの文章で記します。CVの情報を並べるより先に、
-          「どのような問いに取り組んでいるか」が伝わると、サイト全体の印象がかなり整います。
-        </p>
-        <p>
-          たとえば、専門分野の中で何に焦点を当てているか、近年どの分野へ関心を広げているか、どのような方法で研究しているかを書くとよいです。
-        </p>
-      </article>
-
-      <article class="card two-col">
-        <h2 class="section-title">最近の活動</h2>
-        <div class="timeline">
-          <div class="timeline-item">
-            <strong>2026.04</strong><br />
-            研究会・読書会・学会準備などの近況を記載。
-          </div>
-          <div class="timeline-item">
-            <strong>2026.03</strong><br />
-            文献サーベイ、報告資料の作成、申請書執筆などの進捗を記載。
-          </div>
-          <div class="timeline-item">
-            <strong>2026.02</strong><br />
-            IT学習、データ分析、コード実装、共同プロジェクト参加などを記載。
-          </div>
+        <ul class="list">
+          <li>研究テーマと問いの提示</li>
+          <li>研究成果・発表・論文の整理</li>
+          <li>読んできた文献や論点の見取り図</li>
+        </ul>
+        <div class="cta-row compact">
+          <a class="button" href="research.html">研究ページを開く</a>
         </div>
       </article>
 
-      <article class="card three-col stat-card">
-        <h3>掲載予定</h3>
-        <p class="stat-number">3</p>
-        <p class="note">Home / 研究 / IT の三層構成で整理</p>
+      <article class="card two-col feature-card feature-sub">
+        <span class="section-kicker">Sub Page</span>
+        <h2 class="section-title">IT / GitHub は補助的に</h2>
+        <p>
+          ITページは研究の補助線として置きます。データ分析、Python、GitHub、軽い実装経験などを簡潔に示し、技術的素養があることを伝える位置づけです。研究ページほど情報量を持たせず、控えめなサブページとして機能させます。
+        </p>
+        <ul class="list">
+          <li>Python・分析・機械学習の基礎経験</li>
+          <li>GitHub リポジトリへのリンク</li>
+          <li>研究を支える技術面の補足</li>
+        </ul>
+        <div class="cta-row compact">
+          <a class="button secondary" href="it.html">ITページを開く</a>
+        </div>
       </article>
 
-      <article class="card three-col stat-card">
-        <h3>今後追加</h3>
-        <p class="stat-number">CV</p>
-        <p class="note">論文一覧・発表資料・外部プロフィールへの導線</p>
+      <article class="card three-col">
+        <h3>自己紹介</h3>
+        <p>
+          ここには、専門領域、現在の問題関心、研究の方向性を短く記します。トップでは詳細なCVよりも、「何を研究している人か」が明瞭に見えることが重要です。
+        </p>
       </article>
 
-      <article class="card three-col stat-card">
-        <h3>更新方針</h3>
-        <p class="stat-number">Monthly</p>
-        <p class="note">トップページは短く、更新感が伝わることを重視</p>
+      <article class="card three-col">
+        <h3>最近の活動</h3>
+        <div class="timeline compact-timeline">
+          <div class="timeline-item"><strong>2026.04</strong><br />研究会・読書会・発表準備など。</div>
+          <div class="timeline-item"><strong>2026.03</strong><br />文献整理・サーベイ・申請書作成など。</div>
+        </div>
+      </article>
+
+      <article class="card three-col">
+        <h3>差し替えポイント</h3>
+        <ul class="list">
+          <li>氏名・所属・連絡先</li>
+          <li>プロフィール画像</li>
+          <li>研究関心の短い紹介</li>
+          <li>最近の活動ログ</li>
+        </ul>
       </article>
     </section>
   </main>
 
   <footer>
-    © 2026 Name Here. Built as a simple three-page academic portfolio.
+    © 2026 Name Here. Built as an academic portfolio with a main research page and a supporting IT page.
   </footer>
 </body>
 </html>

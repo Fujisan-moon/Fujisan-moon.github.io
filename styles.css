@@ -72,6 +72,11 @@ main {
   margin-bottom: 40px;
 }
 
+.hero-home {
+  min-height: 58vh;
+  padding: 18px 0 12px;
+}
+
 .photo-card {
   width: 100%;
   aspect-ratio: 1 / 1;
@@ -106,6 +111,11 @@ main {
   font-size: 0.85rem;
   font-weight: 700;
   margin-bottom: 14px;
+}
+
+.eyebrow.subdued {
+  background: #eef2ff;
+  color: #475569;
 }
 
 h1 {
@@ -164,6 +174,16 @@ h1 {
   margin-bottom: 12px;
 }
 
+.section-kicker {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #64748b;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
 .list {
   margin: 0;
   padding-left: 1.2rem;
@@ -179,11 +199,19 @@ h1 {
   border-left: 3px solid #bfdbfe;
 }
 
+.compact-timeline {
+  gap: 12px;
+}
+
 .cta-row {
   display: flex;
   gap: 12px;
   flex-wrap: wrap;
   margin-top: 18px;
+}
+
+.cta-row.compact {
+  margin-top: 14px;
 }
 
 .button {
@@ -226,6 +254,11 @@ footer {
   font-size: 0.85rem;
 }
 
+.muted-tag {
+  background: #f1f5f9;
+  color: #475569;
+}
+
 .note {
   font-size: 0.92rem;
   color: var(--muted);
@@ -237,9 +270,49 @@ footer {
 }
 .project:first-child { border-top: none; padding-top: 0; }
 
+.page-hero {
+  margin-bottom: 24px;
+  padding: 28px;
+  border-radius: 28px;
+  border: 1px solid rgba(209,213,219,0.7);
+  box-shadow: var(--shadow);
+}
+
+.page-hero-main {
+  background: rgba(255,255,255,0.88);
+}
+
+.page-hero-sub {
+  background: rgba(248,250,252,0.92);
+  border-style: dashed;
+}
+
+.feature-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.feature-main {
+  background: linear-gradient(180deg, rgba(255,255,255,0.96) 0%, rgba(239,246,255,0.92) 100%);
+}
+
+.feature-sub {
+  background: linear-gradient(180deg, rgba(255,255,255,0.94) 0%, rgba(248,250,252,0.96) 100%);
+}
+
+.sub-grid .sub-card {
+  background: rgba(255,255,255,0.82);
+}
+
+.subtle-card {
+  border-style: dashed;
+}
+
 @media (max-width: 840px) {
   .hero { grid-template-columns: 1fr; }
   .photo-card { max-width: 280px; }
   .two-col, .three-col { grid-column: span 12; }
   .nav { align-items: flex-start; flex-direction: column; }
+  .page-hero { padding: 22px; }
+  .hero-home { min-height: auto; }
 }

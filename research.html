@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>藤野竜多 | Home</title>
-  <meta name="description" content="研究者としてのプロフィール、最近の活動、研究ページ、IT実績ページへの導線をまとめたトップページです。" />
+  <title>研究のまとめ | Research</title>
+  <meta name="description" content="研究テーマ、研究成果、サーベイの要点をまとめたページです。" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header>
     <div class="nav">
-      <a class="brand" href="index.html">藤野竜多のホームページ</a>
+      <a class="brand" href="index.html">Research Portfolio</a>
       <nav class="nav-links">
         <a href="index.html">Home</a>
         <a href="research.html">研究</a>
@@ -20,92 +20,83 @@
   </header>
 
   <main>
-    <section class="hero">
-      <div class="photo-card" aria-label="プロフィール画像のプレースホルダ">
-        <div class="photo-placeholder">
-          イメージ写真をここに配置<br />
-          画像差し替え可
-        </div>
-      </div>
-      <div>
-        <span class="eyebrow">研究者サイト・玄関ページ</span>
-        <h1>氏名 / 藤野竜多</h1>
-        <p class="lead">
-          所属・専門・連絡先を一目で示すためのトップページです。まずは最小構成で公開し、後から研究実績やIT実績を更新していく前提で設計しています。
-        </p>
-        <div class="meta">
-          <div class="meta-item"><strong>所属:</strong> 東京大学大学院 / 倫理学研究室</div>
-          <div class="meta-item"><strong>専門:</strong> カント倫理学(尊敬・格率)・哲学・AI倫理など</div>
-          <div class="meta-item"><strong>連絡先:</strong> 6867203047@g.ecc.u-tokyo.ac.jp</div>
-        </div>
-        <div class="cta-row">
-          <a class="button" href="research.html">研究のまとめを見る</a>
-          <a class="button secondary" href="it.html">IT分野の経験を見る</a>
-        </div>
+    <section class="page-hero page-hero-main">
+      <span class="eyebrow">Main Section</span>
+      <h1>研究のまとめ</h1>
+      <p class="lead">
+        ここでは、現在の研究テーマ、主要な問題意識、発表や論文、文献サーベイの成果を整理して掲載します。サイト全体の中心に位置づくページとして、トップページより一段詳しく、しかし CV ほど無機質になりすぎない情報設計を意識しています。
+      </p>
+      <div class="tag-row">
+        <span class="tag">倫理学</span>
+        <span class="tag">哲学</span>
+        <span class="tag">AI と規範</span>
+        <span class="tag">文献サーベイ</span>
       </div>
     </section>
 
     <section class="grid">
       <article class="card two-col">
-        <h2 class="section-title">自己紹介</h2>
+        <h2 class="section-title">研究テーマ</h2>
         <p>
-          ここには、研究テーマの関心、現在取り組んでいる課題、学術的な問題意識を、長すぎない文章で記します。文系研究者の個人サイトでは、CVの全文を貼るよりも、まず「何を考えている人なのか」が明確に伝わることが重要です。
+          ここに、自分の研究テーマの核を 2〜4 段落程度で記します。たとえば「カント倫理学における実践理性と判断の問題」「有限な主体における道徳的適用の可能性」「AI 時代の規範的責任概念」といった形で、問題設定・問い・射程が見えるようにします。
         </p>
         <p>
-          たとえば、「カント倫理学における実践理性と判断の問題を研究している」「近年はAI・テクノロジーと規範理論の接点にも関心がある」など、研究上の位置づけが短く見えるだけでも十分に機能します。
+          外部の研究者が読んだときに、「何について研究している人か」「どの議論系譜に接続しているか」がすぐ分かるのが理想です。
         </p>
       </article>
 
       <article class="card two-col">
-        <h2 class="section-title">最近の活動</h2>
-        <div class="timeline">
-          <div class="timeline-item">
-            <strong>2026.04</strong><br />
-            研究会・読書会・学会準備などの近況を記載。
-          </div>
-          <div class="timeline-item">
-            <strong>2026.03</strong><br />
-            サーベイや文献整理の進捗、報告書や発表資料の作成状況などを記載。
-          </div>
-          <div class="timeline-item">
-            <strong>2026.02</strong><br />
-            IT学習、データ分析、コード実装、共同プロジェクト参加などを記載。
-          </div>
+        <h2 class="section-title">研究の要約</h2>
+        <ul class="list">
+          <li>主要問い1：ここに研究上の主問題を書く</li>
+          <li>主要問い2：ここに副次的論点を書く</li>
+          <li>方法：文献研究、概念分析、比較研究、事例分析 など</li>
+          <li>意義：既存研究のどこを補うのかを書く</li>
+        </ul>
+      </article>
+
+      <article class="card two-col">
+        <h2 class="section-title">研究成果</h2>
+        <div class="project">
+          <strong>論文・レポート名 A</strong><br />
+          短い説明。研究ノート、投稿準備中、紀要掲載、発表資料など。
         </div>
-        <p class="note">ここは箇条書き中心で十分です。トップページでは詳細より更新感が大事です。</p>
+        <div class="project">
+          <strong>論文・レポート名 B</strong><br />
+          問題設定と結論を 1〜2 文で記載。
+        </div>
+        <div class="project">
+          <strong>研究発表 / ワークショップ</strong><br />
+          日付・場・タイトルを簡潔に記載。
+        </div>
       </article>
 
-      <article class="card three-col">
-        <h3>このサイトの使い方</h3>
+      <article class="card two-col">
+        <h2 class="section-title">サーベイ・レビュー</h2>
         <p>
-          1ページ目はプロフィールと近況、2ページ目は研究、3ページ目はIT実績という構成です。学術関係の人にも技術関係の人にも、必要な情報へすぐ移動できるようにしています。
+          この欄はかなり便利です。自分が読んできた文献群や論点整理を、論文一覧とは別に載せられます。とくに院生・若手研究者のサイトでは、「何を読んできたか」「どの論争を追っているか」が分かると、研究の厚みが伝わりやすくなります。
         </p>
-      </article>
-
-      <article class="card three-col">
-        <h3>今後追加しやすい項目</h3>
         <ul class="list">
-          <li>CV PDF</li>
-          <li>論文一覧</li>
-          <li>発表スライド</li>
-          <li>外部リンク（PhilPeople など）</li>
+          <li>分野Aに関する先行研究サーベイ</li>
+          <li>論点Bに関する主要文献の比較</li>
+          <li>今後深めたい争点のメモ</li>
         </ul>
       </article>
 
-      <article class="card three-col">
-        <h3>差し替えポイント</h3>
-        <ul class="list">
-          <li>氏名・所属・メール</li>
-          <li>画像</li>
-          <li>最近の活動</li>
-          <li>研究・ITページの実データ</li>
-        </ul>
+      <article class="card">
+        <h2 class="section-title">外部リンク・資料</h2>
+        <div class="cta-row">
+          <a class="button secondary" href="#">CV PDF</a>
+          <a class="button secondary" href="#">PhilPeople</a>
+          <a class="button secondary" href="#">Google Scholar</a>
+          <a class="button secondary" href="index.html">トップに戻る</a>
+        </div>
       </article>
     </section>
   </main>
 
   <footer>
-    © 2026 Name Here. Built as a simple three-page academic portfolio.
+    © 2026 Name Here. Main research page.
   </footer>
 </body>
 </html>
